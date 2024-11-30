@@ -6,11 +6,17 @@ It also provides a detailed view of each recipe with its ingredients, instructio
 ## Features
 
 View all recipes:  Displays a list of all recipes fetched from an API.
+
 Sort Recipes:     Sort recipes by various parameters such as calories (ascending/descending).
+
 Filter Recipes:   Filter recipes by cuisine.
+
 Recipe Details:   Each recipe includes detailed information such as ingredients, instructions, prep time, calories, and more.
+
 Responsive Design: Fully responsive layout that works on desktop, tablet, and mobile devices.
+
 Image Rendering: Display images associated with each recipe.
+
 
 ## Technologies
 Frontend:
