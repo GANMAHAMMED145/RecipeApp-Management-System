@@ -99,7 +99,7 @@ Backend app will be run on http://localhost:8080
 1. http://localhost:8080/api/recipes/sorted?defaultValue=asc   (for Get All Recipes Sorted by Calories)
 2. http://localhost:8080/api/recipes/1   (for  Get Recipe by ID)
 3. http://localhost:8080/api/recipes      (for all receipes)
-4. http://localhost:8080/api/recipes/cuisine/Asian (filter Recipes with cusine)
+4. http://localhost:8080/api/recipes/cuisine/{Asian} (filter Recipes with cusine)
 5. http://localhost:8080/api/recipes/fetch-and-save-recipes(for getting data from external api https://dummyjson.com/recipes and storing into H2 in memeory Database.
 
 #1,#2,#3,#4 are GET Request type methods for rertieving data. 
