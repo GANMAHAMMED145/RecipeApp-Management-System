@@ -103,6 +103,8 @@ Backend app will be run on http://localhost:8080
 5. http://localhost:8080/api/recipes/fetch-and-save-recipes(for getting data from external api https://dummyjson.com/recipes and storing into H2 in memeory Database.
 
 #1,#2,#3,#4 are GET Request type methods for rertieving data. 
+
+
 #5 is POST Request type method for inserting data into H2 in memoery  databse.
 
 
@@ -110,10 +112,13 @@ Backend app will be run on http://localhost:8080
 To run the tests for this project, ensure that you have all the dependencies installed and then run:
 
 Frontend:
+
 npm test  
+
 This will run the Jest test suite, which includes tests for fetching and rendering recipes, sorting and filtering recipes, and ensuring the correct rendering of recipe details.
 
 Backend:
+
 mvn test
 
 ## Contributing
