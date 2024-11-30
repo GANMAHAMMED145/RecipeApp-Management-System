@@ -1,6 +1,6 @@
 ## Recipe Management System
 
-A Recipe Management System  FrontEnd built  using React.js, React Router, and API Integration. 
+A Recipe Management System  FrontEnd was  built  using React.js, React Router, and API Integration. 
 
 
 BackEnd was built using Java, Spring Boot, H2 in memory Databse, Hibernate (ORM for database interaction).
