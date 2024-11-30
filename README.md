@@ -71,10 +71,15 @@ This will run the Jest test suite, which includes tests for fetching and renderi
 We welcome contributions to this project! Here's how you can get involved:
 
 Fork this repository.
+
 Create a new branch (git checkout -b feature/your-feature).
+
 Make your changes and commit them (git commit -am 'Add new feature').
+
 Push to your branch (git push origin feature/your-feature).
+
 Create a pull request.
+
 Please make sure to follow the existing coding style and write tests for any new functionality you introduce.
 
 
