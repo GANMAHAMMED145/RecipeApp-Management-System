@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+## Recipe Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Recipe Management System  FrontEnd built  using React.js, React Router, and API Integration. 
+BackEnd was built using Java, Spring Boot, H2 in memory Databse, Hibernate (ORM for database interaction).
+This app allows users to view, filter, and sort recipes based on different criteria such as cuisine type, calories. 
+It also provides a detailed view of each recipe with its ingredients, instructions, and nutritional information.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+View all recipes:  Displays a list of all recipes fetched from an API.
 
-### `npm start`
+Sort Recipes:     Sort recipes by various parameters such as calories (ascending/descending).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Filter Recipes:   Filter recipes by cuisine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Recipe Details:   Each recipe includes detailed information such as ingredients, instructions, prep time, calories, and more.
 
-### `npm test`
+Responsive Design: Fully responsive layout that works on desktop, tablet, and mobile devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Image Rendering: Display images associated with each recipe.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Frontend:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React.js (with hooks)
 
-### `npm run eject`
+React Router for routing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+CSS for styling  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fetch for API requests
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Backend:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Java 17+
 
-## Learn More
+Spring Boot 3.x (RESTful API development)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Hibernate (ORM for database interaction)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+H2 Database (In-memory database for development and testing)
 
-### Code Splitting
+Jakarta Validation (Input validation)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+JUnit & Mockito (Testing framework)
 
-### Analyzing the Bundle Size
+Lombok (Reduce boilerplate code)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Maven 3.6+
 
-### Making a Progressive Web App
+IDE (IntelliJ, Eclipse, or VS Code)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Testing:
+FrontEnd:
+Jest for testing
+React Testing Library for component-level tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+BackEnd:
 
-### Deployment
+JUnit & Mockito (Testing framework)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Setup and Installation
+Follow these steps to set up and run the project locally.
 
-### `npm run build` fails to minify
+## Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ https://github.com/GANMAHAMMED145/RecipeApp-Management-System.git
+ cd RecipeApp-Management-System
+
+## Install dependencies:
+
+Make sure you have Node.js and npm, React js, Java, SpringBoot installed on your system.
+
+## commands for install:
+
+npm install
+
+## Start the development servers:
+
+npm start(frontend)
+
+
+mvn spring-boot:run(backend)
+
+
+Frontend  app on http://localhost:3000 in development mode. 
+
+
+Backend app will be run on http://localhost:8080
+
+ 
+
+
+## API Endpoints
+
+1. http://localhost:8080/api/recipes/sorted?defaultValue=asc   (for Get All Recipes Sorted by Calories)
+2. http://localhost:8080/api/recipes/1   (for  Get Recipe by ID)
+3. http://localhost:8080/api/recipes      (for all receipes)
+4. http://localhost:8080/api/recipes/cuisine/{Asian} (filter Recipes with cusine)
+5. http://localhost:8080/api/recipes/fetch-and-save-recipes(for getting data from external api https://dummyjson.com/recipes and storing into H2 in memeory Database.
+
+#1,#2,#3,#4 are GET Request type methods for rertieving data. 
+
+
+#5 is POST Request type method for inserting data into H2 in memoery  databse.
+
+
+## Testing
+To run the tests for this project, ensure that you have all the dependencies installed and then run:
+
+Frontend:
+
+npm test  
+
+This will run the Jest test suite, which includes tests for fetching and rendering recipes, sorting and filtering recipes, and ensuring the correct rendering of recipe details.
+
+Backend:
+
+mvn test
+
+## Contributing
+We welcome contributions to this project! Here's how you can get involved:
+
+Fork this repository.
+
+Create a new branch (git checkout -b feature/your-feature).
+
+Make your changes and commit them (git commit -am 'Add new feature').
+
+Push to your branch (git push origin feature/your-feature).
+
+Create a pull request.
+
+Please make sure to follow the existing coding style and write tests for any new functionality you introduce.
+
+
+# Author
+
+👤 Gangupalli Mahammed
+Email: mahammed145jntua@gmail.com
+
