@@ -2,11 +2,15 @@
 
 A Recipe Management System  FrontEnd built  using React.js, React Router, and API Integration. 
 
+
 BackEnd was built using Java, Spring Boot, H2 in memory Databse, Hibernate (ORM for database interaction).
+
 
 This app allows users to view, filter, and sort recipes based on different criteria such as cuisine type, calories.
 
+
 It also provides a detailed view of each recipe with its ingredients, instructions, and nutritional information.
+
 
 
 ## Features
