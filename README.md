@@ -16,8 +16,11 @@ Image Rendering: Display images associated with each recipe.
 Frontend:
 
 React.js (with hooks)
+
 React Router for routing
+
 CSS for styling (custom styles or libraries like Bootstrap or Material UI)
+
 Axios (or Fetch) for API requests
 
 ## Testing:
