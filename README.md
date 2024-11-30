@@ -29,8 +29,8 @@ Follow these steps to set up and run the project locally.
 
 ## Clone the repository:
 
-https://github.com/GANMAHAMMED145/recipe-api.git 
-cd recipe-api 
+ https://github.com/GANMAHAMMED145/RecipeApp-Management-System.git
+cd RecipeApp-Management-System
 
 ## Install dependencies:
 
