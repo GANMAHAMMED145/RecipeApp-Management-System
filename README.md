@@ -81,10 +81,16 @@ npm install
 ## Start the development servers:
 
 npm start(frontend)
+
+
 mvn spring-boot:run(backend)
 
+
 Frontend  app on http://localhost:3000 in development mode. 
+
+
 Backend app will be run on http://localhost:8080
+
  
 
 
@@ -102,11 +108,14 @@ Backend app will be run on http://localhost:8080
 
 ## Testing
 To run the tests for this project, ensure that you have all the dependencies installed and then run:
+
 Frontend:
 npm test  
 This will run the Jest test suite, which includes tests for fetching and rendering recipes, sorting and filtering recipes, and ensuring the correct rendering of recipe details.
+
 Backend:
 mvn test
+
 ## Contributing
 We welcome contributions to this project! Here's how you can get involved:
 
@@ -128,8 +137,3 @@ Please make sure to follow the existing coding style and write tests for any new
 👤 Gangupalli Mahammed
 Email: mahammed145jntua@gmail.com
 
-
-##  Author
-
-👤 Gangupalli Mahammed
-Email: mahammed145jntua@gmail.com
